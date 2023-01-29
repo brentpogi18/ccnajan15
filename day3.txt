@@ -225,7 +225,7 @@ LSA Type 4 = O E2
 
 BGP Packet
 Notification
-O
+Open Packet
 Keep Alive
 Update
 
