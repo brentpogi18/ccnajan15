@@ -71,13 +71,13 @@ cmd
 route add 10.22.0.0 mask 255.255.0.0 10.22.1.4 -p
 
 How to Static Route in Cisco/PC/EndDevices:
-p1:
-config T
+@@@p1:
+config t
 ip route 0.0.0.0 0.0.0.0 10.2.1.1
 do sh ip route static
 
-p2:
-config T
+@@@p2:
+config t
 ip route 0.0.0.0 0.0.0.0 10.2.1.2
 do sh ip route static
 
